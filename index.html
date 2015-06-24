@@ -1,9 +1,72 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!--DESIGNED & DEVELOPED BY AppStack-->
 <html>
 <head>
-	<title></title>
+	<title>AdrianRusin.com</title>
+	<link rel="stylesheet" type="text/css" href="css/framework.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){ 
+		setTimeout(function(){
+			$('.meta-content').removeClass('hidden');
+        	$('.meta-content').addClass('animated slideInRight'); 
+      	}, 300);
+		setTimeout(function(){
+			$('.featured-content').removeClass('hidden');
+			$('.featured-content').addClass('animated fadeInRight');
+		}, 900);
+	});
+	</script>
 </head>
 <body>
-
+	<div class="featured-content hidden">
+		
+	</div>
+	<div class="meta-content hidden">
+		
+	</div>
+	<div class="navbar">
+		<img class="navbar-brand" src="img/brand.png">
+		<ul class="navbar-menu">
+			<li>
+				<a href="#">Home</a>
+			</li>
+			<li>
+				<a href="#">About</a>
+			</li>
+			<li>
+				<a href="#">Store</a>
+			</li>
+			<li>
+				<a href="#">Contact</a>
+			</li>
+			<li>
+				<a href="#">Location</a>
+			</li>
+		</ul>
+		<ul class="navbar-footer">
+			<li>
+				<a href="#">
+					<i class="fa fa-facebook"></i>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class="fa fa-twitter"></i>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class="fa fa-google-plus"></i>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class="fa fa-pinterest"></i>
+				</a>
+			</li>
+		</ul>
+	</div>
 </body>
 </html>
